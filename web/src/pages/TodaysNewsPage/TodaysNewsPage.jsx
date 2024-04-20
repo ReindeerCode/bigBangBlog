@@ -5,16 +5,22 @@ const TodaysNewsPage = () => {
   return (
     <>
       <Metadata title="TodaysNews" description="TodaysNews page" />
-
-      <h1>TodaysNewsPage</h1>
-      <p>
-        Find me in{' '}
-        <code>./web/src/pages/TodaysNewsPage/TodaysNewsPage.jsx</code>
-      </p>
-      <p>
-        My default route is named <code>todaysNews</code>, link to me with `
-        <Link to={routes.todaysNews()}>TodaysNews</Link>`
-      </p>
+      <header>
+        <h1>Big Bang Blog: Today's News Page</h1>
+        <nav>
+          <ul>
+            <li>
+              <Link to={routes.home()}>Home</Link>
+            </li>
+            <li>
+              <Link to={routes.pastNews()}>Past News</Link>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <code>Content TBD</code>
+      </main>
     </>
   )
 }

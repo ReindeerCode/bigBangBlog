@@ -5,15 +5,22 @@ const PastNewsPage = () => {
   return (
     <>
       <Metadata title="PastNews" description="PastNews page" />
-
-      <h1>PastNewsPage</h1>
-      <p>
-        Find me in <code>./web/src/pages/PastNewsPage/PastNewsPage.jsx</code>
-      </p>
-      <p>
-        My default route is named <code>pastNews</code>, link to me with `
-        <Link to={routes.pastNews()}>PastNews</Link>`
-      </p>
+      <header>
+        <h1>Big Bang Blog: Past News Page</h1>
+        <nav>
+          <ul>
+            <li>
+              <Link to={routes.home()}>Home</Link>
+            </li>
+            <li>
+              <Link to={routes.todaysNews()}>Today's News</Link>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <code>Content TBD</code>
+      </main>
     </>
   )
 }
