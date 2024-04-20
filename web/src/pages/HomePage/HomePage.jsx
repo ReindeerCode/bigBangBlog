@@ -13,6 +13,9 @@ const HomePage = () => {
             <li>
               <Link to={routes.pastNews()}>Past News</Link>
             </li>
+            <li>
+              <Link to={routes.todaysNews()}>Today's News</Link>
+            </li>
           </ul>
         </nav>
       </header>
