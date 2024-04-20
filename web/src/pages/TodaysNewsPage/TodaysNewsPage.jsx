@@ -20,6 +20,9 @@ const TodaysNewsPage = () => {
       </header>
       <main>
         <code>Content TBD</code>
+        <p>
+          <Link to={routes.home()}>Return home</Link>
+        </p>
       </main>
     </>
   )
